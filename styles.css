@@ -1,0 +1,70 @@
+.game-board {
+	padding: 25px;
+	position: relative;
+	width: 306px;
+	margin: 50px auto 0;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background-color: #222;
+}
+
+.game-pieces-container {
+	position: relative;
+}
+
+.game-pieces {
+	display: inline-block;
+}
+
+.game-piece {
+	height:150px;
+	margin-bottom: 10px;
+	width: 150px;
+}
+
+.game-piece-1 {
+	background-color:#0b7000;
+	-moz-border-radius: 150px 0 0 0;
+	border-radius: 150px 0 0 0;
+}
+
+.game-piece-2 {
+	background-color:#c3b400;
+	-moz-border-radius: 0 0 0 150px;
+	border-radius: 0 0 0 150px;
+	margin-bottom: 0;
+}
+
+.game-piece-3 {
+	background-color:#c30800;
+	-moz-border-radius: 0 150px 0 0;
+	border-radius: 0 150px 0 0;
+}
+
+.game-piece-4 {
+	background-color:#196d85;
+	-moz-border-radius: 0 0 150px 0;
+	border-radius: 0 0 150px 0;
+	margin-bottom: 0;
+}
+
+.game-board .points-container {
+	background-color:#000;
+	color: #fff;
+	height:100px;
+	width:100px;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	position: absolute;
+	display: inline-block;
+	left: 105px;
+	text-align: center;
+	font-size: 40px;
+	top: 105px;
+	z-index: 1;
+}
+
+.game-board .points-container .points {
+	position: relative;
+	top: 25px;
+}
