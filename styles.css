@@ -22,6 +22,22 @@
 	width: 150px;
 }
 
+.game-piece-1.active {
+	background-color: rgba(11, 112, 0, .5);
+}
+
+.game-piece-2.active {
+	background-color: rgba(195, 180, 0, .5);
+}
+
+.game-piece-3.active {
+	background-color: rgba(195, 8, 0, .5);
+}
+
+.game-piece-4.active {
+	background-color: rgba(25, 109, 133, .5);
+}
+
 .game-piece-1 {
 	background-color:#0b7000;
 	-moz-border-radius: 150px 0 0 0;
