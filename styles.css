@@ -1,11 +1,20 @@
+#root {
+	width: 356px;
+	margin: 50px auto 0;
+}
+
 .game-board {
 	padding: 25px;
 	position: relative;
 	width: 306px;
-	margin: 50px auto 0;
+	margin: auto 0;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	background-color: #222;
+}
+
+.pull-right {
+	float: right;
 }
 
 .game-pieces-container {
@@ -64,7 +73,7 @@
 	margin-bottom: 0;
 }
 
-.game-board .points-container {
+.game-board .level-container {
 	background-color:#000;
 	color: #fff;
 	height:100px;
@@ -80,7 +89,35 @@
 	z-index: 1;
 }
 
-.game-board .points-container .points {
+.game-board .level-container .level {
 	position: relative;
 	top: 25px;
+}
+
+button {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.button-primary {
+	color: #FFF;
+  background-color: #337ab7;
+  border-color: #2e6da4;
 }
