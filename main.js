@@ -6,7 +6,7 @@
 	var levelContainer = rootElement.querySelectorAll(".level")[0];
 
 	if (!gamePieces.length) {
-	    alert("Simon Says is currently unavailable!");
+	    alert("Simon Says is currently unavailable! Please reload the browser!");
 			return;
 	}
 
