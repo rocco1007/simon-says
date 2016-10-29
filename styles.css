@@ -42,7 +42,7 @@
 }
 
 .game-piece-3.active {
-	box-shadow: 0px 0px 17px 4px green;
+	box-shadow: 0px 0px 17px 4px red;
 	background-color: red;
 }
 
